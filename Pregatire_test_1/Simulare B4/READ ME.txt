@@ -1,0 +1,7 @@
+Problema aceasta se refera la main-ul prezentat. Basically, fa-l sa mearga. Tot ce mai trebuie facut e construit restul de Hash-uri astfel:
+CountConsonantHash - un hash egal cu numarul de consoane din fraza
+CountAsciiHash - un hash egal cu suma codurilor ASCII ale caracterelor din fraza
+EasyHash.h - un hash construit astfel: ca la hashul precedent, doar ca :
+		daca un caracter este vocala, cod ASCII * 10
+		daca este consoana, cod ASCII * 11
+		altfel, cod ASCII*12
